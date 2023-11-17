@@ -18,8 +18,8 @@ app.use(cors());
 
 
 //Routes
-app.use("/users", userRoutes);
-app.use("/auth", authRoutes); 
+app.use("/api/users", userRoutes);
+app.use("/api/auth", authRoutes); 
 
 const PORT = process.env.PORT || 8080;
 
