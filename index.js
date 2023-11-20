@@ -11,7 +11,6 @@ const authRoutes = require("./routes/auth");
 DBconnection();
 
 
-
 //MiddleWares
 app.use(express.json());
 app.use(cors());
